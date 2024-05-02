@@ -8,6 +8,7 @@ import { BsBag } from 'react-icons/bs';
 import { IoSettingsOutline } from 'react-icons/io5';
 import { BsList } from 'react-icons/bs';
 import "./sidebar.css";
+import { FaUserCircle } from "react-icons/fa";
 
 const Sidebar = () => {
     return (
@@ -23,7 +24,14 @@ const Sidebar = () => {
                 </Col>
             </Row>
 
-            <div style={{ textAlign: "left" }}>
+            <div className=" text-center text-white">
+            <div style={{ display: "flex" }}>
+                <span className="text-white" style={{ margin: "auto" }}><FaUserCircle size="50" /></span>
+            </div>
+            <p className="p-2">Alex Jones</p>
+            </div>
+
+            <div style={{ textAlign: "left", marginTop: "30px" }}>
                 <Link to="/" className="route-link">
                     <Nav.Link className="alink" href="#home">
                         <span className="link-icon"><LuHome size="25" /></span> Home
@@ -40,9 +48,9 @@ const Sidebar = () => {
                     </Nav.Link>
                 </Link>
                 <Link to="orders" className="route-link">
-                <Nav.Link className="link" href="#orders">
-                    <span className="link-icon"><BsBag size="25" /></span> Orders
-                </Nav.Link>
+                    <Nav.Link className="link" href="#orders">
+                        <span className="link-icon"><BsBag size="25" /></span> Orders
+                    </Nav.Link>
                 </Link>
                 <Nav.Link className="link">
                     <span className="link-icon"><IoSettingsOutline size="25" /></span> Account

@@ -18,9 +18,9 @@ const Home = () => {
                         </div>
 
                         <Row>
-                            <Cards title="Products" icons={<BsBoxSeam size="35" />} page="/products" />
-                            <Cards title="Users" icons={<LiaUserSolid size="35" />} page="/users" />
-                            <Cards title="Orders" icons={<BsBag size="35" />} page="/orders" />
+                            <Cards title="Products" icons={<BsBoxSeam size="35" />} page="/products" item="5" />
+                            <Cards title="Users" icons={<LiaUserSolid size="35" />} page="/users" item="5" />
+                            <Cards title="Orders" icons={<BsBag size="35" />} page="/orders" item="5" />
                         </Row>
                     </Col>
                 </Container>

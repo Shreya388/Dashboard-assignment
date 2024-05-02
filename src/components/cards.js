@@ -11,6 +11,7 @@ const Cards = (props) => {
             <Card.Body>
             <p>{props.title}</p>
             {props.icons}
+            <span className="items text-white">{props.item}</span>
             </Card.Body>
         </Card>
         </Link>
