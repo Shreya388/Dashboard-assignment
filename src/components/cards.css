@@ -1,0 +1,8 @@
+.cards{
+    background: linear-gradient(170deg, #007d48, #44ff90);
+    border: none !important;
+    color: white;
+    height: 8rem !important;
+    width: 12rem;
+    border-radius: 17px;
+}

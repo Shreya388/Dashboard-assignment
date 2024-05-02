@@ -2,10 +2,11 @@ import './App.css';
 import Sidebar from "./components/sidebar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Products from './pages/Products';
 import Users from './pages/Users';
 import Home from './pages/Home';
+import Orders from './pages/Orders';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="products" element={<Products />} />
               <Route path="users" element={<Users />} />
+              <Route path="orders" element={<Orders />} />
             </Routes>
           </div>
         </div>

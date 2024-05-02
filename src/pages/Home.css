@@ -1,0 +1,12 @@
+.header{
+    background:#eeeeee; 
+    position:absolute; 
+    top:0; right:0; 
+    padding:0; 
+    height: 180px; 
+    left:250px;
+}
+
+.heading{
+    margin-top: 56px;
+}
