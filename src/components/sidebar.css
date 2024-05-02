@@ -1,0 +1,45 @@
+.sidebar{
+    background: linear-gradient(115deg, #007d48, #44ff90);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 269px;
+}
+
+
+.link{
+    padding: 15px 20px !important;
+    color: white !important;
+    border-left: 4px solid white transparent;
+    font-weight: 400 !important;
+    text-decoration: none;
+    font-size: 0.9rem !important;
+}
+
+.alink{
+    padding: 15px 20px !important;
+    color: white !important;
+    border-left: 4px solid white !important;
+    font-weight: 400 !important;
+    text-decoration: none;
+    font-size: 0.9rem !important;
+}
+
+.link-icon{
+    padding-right: 50px;
+}
+
+.route-link{
+    text-decoration: none;
+}
+
+.toggle-btn{
+    background:white; 
+    float:right; 
+    color:green; 
+    border:none; 
+    border-radius:50px; 
+    padding:10px; 
+    margin-left:-20px !important;
+}
